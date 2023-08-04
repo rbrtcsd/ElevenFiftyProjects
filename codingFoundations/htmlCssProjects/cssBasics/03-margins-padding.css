@@ -1,0 +1,47 @@
+body {
+    background-color: darkgray
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    border: solid 2px blue;
+    margin-top: 50px;
+    margin-right: 250px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    padding: 20px 20px 20px 40px;
+}
+
+/* *With margins and padding, you can use a shorter method: margin: 50px 250px 200px 200px */
+/* *padding: 50px 250px 200px 200px (top right bottom left) */
+
+p {
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: 5px solid pink;
+}
+
+#margin-experiment-1, #margin-experiment-2 {
+    margin: 0;
+}
+
+.margin-experiment-3 {
+    margin: 5px 10px 20px 0;
+    padding: 10px;
+}
+
+.padded-container {
+    border: solid 2px yellow;
+    margin: 50px;
+    padding: 20px 20px 20px 40px;
+}
+
+#padding-experiment-1 {
+    border: 2px solid lime;
+    margin: 50px;
+    padding: 20px;
+}

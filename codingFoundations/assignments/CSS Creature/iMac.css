@@ -1,0 +1,54 @@
+body {
+    background-color: lightblue;
+}
+
+#imac {
+    position: relative;
+    width: 300px;
+}
+
+.wrapper {
+    width: 1000px;
+    height: 800px;
+    background-color:black;
+    border-radius: 25px;
+    z-index: 4;
+}
+
+.chin {
+    position: relative;
+    top: 650px;
+    left: -0.5px;
+    width: 1001px;
+    height: 150px;
+    border-radius: 0 0 25px 25px;
+    background-color: lightgray;
+    z-index: 5;
+}
+
+.logo{
+    position: relative;
+    top: 425px;
+    left: 425px;
+    z-index: 6;
+}
+
+.arm {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    top: 650px;
+    left: 350px;
+    background-color: #9d8d89;
+    z-index: 10;
+}
+
+#foot {
+    position: relative;
+    width: 320px;
+    height: 20px;
+    background-color: lightgray;
+    top: 562px;
+    left: 340px;
+    border-radius: 8px 8px 0 0;
+}
