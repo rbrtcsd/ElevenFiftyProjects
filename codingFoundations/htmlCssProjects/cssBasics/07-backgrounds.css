@@ -1,0 +1,42 @@
+.wrapper {
+  margin: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.background-one {
+  background-color: blue;
+  padding: 7px;
+}
+
+.background-one p {
+  color: white;
+}
+
+.background-two {
+  background-image: url(../assets/Mt._Hood\,_Timothy_Lake.jpg);
+}
+
+.rainbow-container {
+  background: linear-gradient(
+    90deg,
+    red 0%,
+     orange 10%,
+     yellow 20%,
+     green 30%,
+     blue 40%,
+     indigo 50%,
+     violet 60%,
+     rgba(95, 21, 242, 1) 70%,
+     rgba(186, 12, 248, 1) 80%,
+     rgba(251, 7, 217, 1) 90%,
+     rgba(255, 0, 0, 1) 100%
+    
+  );
+}
