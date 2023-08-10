@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(171, 170, 172, .2);
+}
+
+#header {
+    background-color: black;
+}
+
+#navigation {
+    position: sticky;
+    -webkit-sticky;
+}
+
+#navigation ul {
+    margin: 0;
+    padding: 10px  10px 10px;
+    top: 0;
+    list-style: none;
+    background-color: #9b5789;
+}
+#navigation a, a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#navigation li {
+    display: inline;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#bannerBackground {
+    position: relative;
+}
+
+#banner img{
+    position: relative;
+    width: 100vw;
+}
+
+#bookStoreLogo img {
+    position: relative;
+    padding: 10px;
+    width: 75vw;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-175%);
+}
+
+#main {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    position: relative;
+    top: -340px;
+}
+
+#main h1 {
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    font-size: xx-large
+}
+
+#main table {
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    padding: 30px;
+}
+
+#main td {
+    width: 33%;
+    padding: 0 20px 20px;
+}
+
+#main img {
+    width: 20vw;
+}
+
+#main p {
+    color: black;
+    text-transform: capitalize;
+}
+
+footer {
+    height: 200px;
+    background-color: #9b5789;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+footer a,a:hover,p {
+    text-decoration: none;
+    color: white
+}
+
+footer li,p {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    display: inline;
+    padding: 10px;
+}
+
+.orderButton {
+    background-color:#9b5789;
+    color: white;
+    border: none;
+    padding: 20px 50px 20px 50px;
+    border-radius: 10px;
+}
