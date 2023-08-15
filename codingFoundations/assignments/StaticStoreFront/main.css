@@ -12,7 +12,7 @@ body {
 
 #navigation {
     position: sticky;
-    -webkit-sticky;
+    position: -webkit-sticky;
 }
 
 #navigation ul {
